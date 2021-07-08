@@ -4145,6 +4145,25 @@ mjx-container[jax='CHTML'][display='true'] {
 #article-container .aplayer {
   margin: 0 0 1rem;
 }
+.heimu,
+.heimu a {
+  background-color: #252525;
+  color: #252525;
+  text-shadow: none;
+}
+::selection {
+  background: #9ab0c0;
+  color: #fff;
+}
+.heimu:hover,
+.heimu:hover a {
+  -webkit-transition: color 0.13s linear;
+  -moz-transition: color 0.13s linear;
+  -o-transition: color 0.13s linear;
+  -ms-transition: color 0.13s linear;
+  transition: color 0.13s linear;
+  color: #fff;
+}
 #article-container .btn-center {
   margin: 0 0 1rem;
   text-align: center;
